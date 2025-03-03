@@ -37,4 +37,5 @@
     <string name="error_network">Network error. Please try again</string>
     <string name="success_login">Login successful!</string>
     <string name="success_signup">Account created successfully!</string>
+    <string name="app_tagline">Manage your contacts with ease</string>
 </resources>

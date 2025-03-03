@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Outer Circle -->
+    <path
+        android:fillColor="@color/colorPrimary"
+        android:pathData="M50,50m-45,0a45,45 0,1 1,90 0a45,45 0,1 1,-90 0" />
+
+    <!-- Contact Book -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M65,25H35c-2.8,0 -5,2.2 -5,5v40c0,2.8 2.2,5 5,5h30c2.8,0 5,-2.2 5,-5V30C70,27.2 67.8,25 65,25zM65,70H35V30h30V70z" />
+
+    <!-- Contact Icon -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M50,40c2.8,0 5,2.2 5,5s-2.2,5 -5,5s-5,-2.2 -5,-5S47.2,40 50,40zM50,55c6.7,0 14.5,3.2 15,5H35C35.5,58.2 43.3,55 50,55z" />
+
+    <!-- Decorative Lines -->
+    <path
+        android:fillColor="@color/colorAccent"
+        android:pathData="M57.5,32.5h5v3h-5z" />
+    
+    <path
+        android:fillColor="@color/colorAccent"
+        android:pathData="M57.5,65h5v3h-5z" />
+
+</vector> 

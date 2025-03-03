@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp">
+    android:background="@color/white"
+    android:padding="24dp">
 
     <TextView
         android:id="@+id/tvTitle"
@@ -11,8 +12,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
         android:text="@string/welcome_back"
-        android:textColor="@color/black"
-        android:textSize="24sp"
+        android:textColor="@color/textPrimary"
+        android:textSize="32sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -20,10 +21,10 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tilEmail"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        style="@style/Widget.App.TextInputLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="48dp"
         android:hint="@string/email"
         app:layout_constraintTop_toBottomOf="@id/tvTitle">
 
@@ -31,13 +32,15 @@
             android:id="@+id/etEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textEmailAddress" />
+            android:inputType="textEmailAddress"
+            android:textColor="@color/textPrimary"
+            android:textSize="16sp" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tilPassword"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        style="@style/Widget.App.TextInputLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -49,16 +52,18 @@
             android:id="@+id/etPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:textColor="@color/textPrimary"
+            android:textSize="16sp" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnLogin"
+        style="@style/Widget.App.Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:padding="12dp"
+        android:layout_marginTop="32dp"
         android:text="@string/login"
         android:textAllCaps="false"
         app:layout_constraintTop_toBottomOf="@id/tilPassword" />
@@ -67,6 +72,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:gravity="center"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -75,16 +81,17 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/dont_have_account" />
+            android:text="@string/dont_have_account"
+            android:textColor="@color/textSecondary"
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/tvSignUp"
+            style="@style/TextAppearance.App.Link"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="4dp"
-            android:text="@string/sign_up"
-            android:textColor="@color/design_default_color_primary"
-            android:textStyle="bold" />
+            android:layout_marginStart="8dp"
+            android:text="@string/sign_up" />
 
     </LinearLayout>
 

@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "359475594118",
+    "firebase_url": "https://newnew-1660e-default-rtdb.firebaseio.com",
+    "project_id": "newnew-1660e",
+    "storage_bucket": "newnew-1660e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359475594118:android:ea42624597845a350ce207",
+        "android_client_info": {
+          "package_name": "com.example.contactmanager"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeNxmjaMFUYhr-SoHNzNoJWwmpMsnmoFI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359475594118:android:2117de56169094860ce207",
+        "android_client_info": {
+          "package_name": "com.example.managecontact"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeNxmjaMFUYhr-SoHNzNoJWwmpMsnmoFI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
